@@ -40,4 +40,6 @@ If you haven't already, sign up for a free Figma account, so you can work with t
 *(You may only need to do this if you are unable to view the design straight away)*.
 
 # Assets
-All image and icon assets can be found in the assets folder.
+All image and icon assets can be found in the assets folder:
+
+https://github.com/bullioncapital/wordpress-technical-test/tree/main/assets
