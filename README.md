@@ -1,45 +1,29 @@
-# wordpress-technical-test
-This is the Repo for the Wordpress Technical Test
+# Santosh Task
+This is the Repo for the Wordpress Santosh Task
 
 # Quick Links
-1. [Test brief](#test-brief)
-2. [Requirments](#requirements)
-4. [Pricing table](#pricing-table)
-5. [Design](#design)
-6. [Assets](#assets)
+1. [Project Setup](#project-setup)
+2. [Used Plugins](#plugins)
 
-# Test Brief
-The purpose of this test is for us to see what kind of developer you are. 
+# Project Setup
+1) Download the test-task.sql file and import the database into your phpMyAdmin..
 
-The task is simple, follow instructions where required and show initiative where you can. 
+2) After a successful database import, set up WordPress by selecting this database.
 
-This test shouldn’t take more than a couple of hours. 
+3) Check your database name and password. Also, you need to change your site_url and home_url from the options table in the database.
 
-It will require varied frontend and backend skills.
+4) After everything is successful, check the front view.
 
-TLDR; convert the following design into a wordpress page.
+# Plugins
+1) Oxygen Builder
 
-![PNG of the design](Design.png)
+We have used this plugin for the page block editor. It's easy to manage content and easy to move blocks; we can also copy and paste blocks to other pages.
 
-# Requirements
-The task is to create this page in wordpress using a custom built plugin to generate the blocks for the page. You can rely on the use of other plugins if necessary.
+2) CZcustomeWP-Plugin
 
-Each section of this page should be built as a block allowing them to be moved around the page without breaking and allow for multiple instances of the blocks on the same page.
+We have created a custom plugin for creating custom code. In this plugin, we have created a pricing table using coinmarketcap api. Here we create a shortcode to show the pricing table. Also, plugins have a style.css file where we have added custom styles for desktop and responsive screens.
 
-The page should be fully responsive, the responsive design has not been provided please use best judgement.
+3) Wpide
 
-# Pricing Table
-The pricing table shown in the design should pull through dynamic content. To do this you can use a free CoinMarketCap api. 
+This plugin is basically used for accessing and editing files.
 
-https://coinmarketcap.com/api/. You can use any API for this as long as it provides all data shown in the design.
-
-# Design
-The design can be found here. https://www.figma.com/file/PuLjccv9evn1GTTHrsDKvu/Dev-tech-test?type=design&node-id=1-8702&mode=design&t=fU8P48P5jqDeUxyv-0
-
-If you haven't already, sign up for a free Figma account, so you can work with the design.
-*(You may only need to do this if you are unable to view the design straight away)*.
-
-# Assets
-All image and icon assets can be found in the assets folder:
-
-https://github.com/bullioncapital/wordpress-technical-test/tree/main/assets
